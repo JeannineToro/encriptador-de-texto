@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+
+    <header>
+        <a href="https://www.aluracursos.com/" target="_blank"><img src="./imagenes/Logo.png" alt="Logo de Alura"></a>
+    </header>
+
+    <div id="mensaje-info" style="display: none;"></div>
+
+    <main>
+
+        <section class="encriptar">
+
+            <div class="espacio">
+
+                <textarea id="textoIngresado" placeholder="Ingresa el texto aquí" autocomplete="off" autofocus></textarea>
+            </div>
+
+            <div>
+
+                <span class="mensaje"><div class="signo">!</div> Solo letras minúsculas y sin acentos</span>
+                
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="encriptar()">Encriptar</button>
+
+                    <button class="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="encriptado">
+
+            <div class="resultado">
+                <img src="./imagenes/imagen.png" alt="Imagen de una niña con una lupa" width="200px">
+
+                <h3>Ningún mensaje fue encontrado</h3>
+
+                <p>Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+
+        </section>
+    </main>
+
+
+    <footer>&copy;2024 Jeannine Toro</footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
